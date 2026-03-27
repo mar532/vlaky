@@ -1,1 +1,33 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <title>Moje Tabulka</title>
+    <style>
+        table { border-collapse: collapse; width: 50%; }
+        th, td { border: 1px solid black; padding: 8px; text-align: left; }
+        th { background-color: #f2f2f2; }
+    </style>
+</head>
+<body>
+
+    <h2>Ukázka s DOCTYPE</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Úroveň</th>
+                <th>Písmena</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>A1</td>
+                <td>A, B, C</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
 
